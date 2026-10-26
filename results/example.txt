@@ -1,0 +1,13 @@
+Measured 2026-10-26 against an OpenAI-compatible endpoint.
+Reps: 1 (use --reps 5 before trusting any number).
+
+model              task          out     secs   cost/request     $10 buys
+deepseek-flash     short          90      1.1       0.000275       36,403
+deepseek-flash     code          634      3.5       0.001775        5,634
+deepseek-flash     long          136      1.6       0.000686       14,574
+glm-5.3            short          42      1.7       0.000539       18,552
+glm-5.3            code           63      1.5       0.000791       12,642
+glm-5.3            long           73      1.7       0.002350        4,255
+kimi-k2.6          short          32      1.3       0.000311       32,159
+kimi-k2.6          code           61      1.3       0.000589       16,975
+kimi-k2.6          long           55      1.2       0.000682       14,667
