@@ -6,7 +6,7 @@ Models emit wildly different numbers of tokens for the same prompt. A model that
 costs 5× more per million can be cheaper per request, because it answers in 60
 tokens instead of 500. The only way to know is to measure.
 
-This is a ~150-line, dependency-free script that does exactly that: it runs the
+This is a ~170-line, dependency-free script that does exactly that: it runs the
 same prompts N times against each model on any OpenAI-compatible endpoint, reads
 the `usage` fields the API returns, and prints the median cost per request.
 
